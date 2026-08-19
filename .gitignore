@@ -6,6 +6,9 @@
 .env
 .env.local
 
+# MCP Configuration (user-specific)
+mcp.json
+
 # Resume Files
 resumes/
 uploads/
