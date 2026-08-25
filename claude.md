@@ -33,3 +33,4 @@ Before implementing a substantial task:
 5. Implement only the requested scope.
 6. Test the result.
 7. Record the verified state.
+8. NEVER add a co-author message to git commits. all commits must be short and simple.

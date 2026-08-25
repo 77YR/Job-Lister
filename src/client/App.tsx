@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import ProfilePage from './pages/ProfilePage';
 
 interface HealthStatus {
   status: string;
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div style={{ fontFamily: 'sans-serif' }}>
+      <div style={{ fontFamily: 'sans-serif', maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
         <header style={{ borderBottom: '1px solid #ccc', padding: '1rem 0', marginBottom: '2rem' }}>
           <h1>JobLister</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>
@@ -39,7 +40,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage health={health} error={error} />} />
-          <Route path="/profile" element={<PlaceholderPage title="Profile" />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/search" element={<PlaceholderPage title="Search" />} />
           <Route path="/results" element={<PlaceholderPage title="Results" />} />
         </Routes>
@@ -76,13 +77,19 @@ function HomePage({ health, error }: { health: HealthStatus | null; error: strin
         )}
       </div>
 
-      <div style={{ marginTop: '2rem', padding: '1rem', background: '#fff3cd', borderRadius: '8px', color: '#000' }}>
-        <h3>⚠️ Milestone 0 - Foundation Complete</h3>
+      <div style={{ marginTop: '2rem', padding: '1rem', background: '#e7f3ff', borderRadius: '8px', color: '#000' }}>
+        <h3>🚀 Get Started</h3>
         <p style={{ marginTop: '0.5rem' }}>
-          This is a minimal foundation. Features will be implemented in subsequent milestones:
+          Ready to begin? <Link to="/profile" style={{ fontWeight: 'bold' }}>Upload your resume</Link> to create your profile.
+        </p>
+      </div>
+
+      <div style={{ marginTop: '2rem', padding: '1rem', background: '#fff3cd', borderRadius: '8px', color: '#000' }}>
+        <h3>📍 Current Milestone: Milestone 1 - Resume → Profile</h3>
+        <p style={{ marginTop: '0.5rem' }}>
+          Upcoming milestones:
         </p>
         <ul style={{ marginTop: '0.5rem', marginLeft: '1.5rem' }}>
-          <li>Milestone 1: Resume → Profile</li>
           <li>Milestone 2: JobsPipe Retrieval</li>
           <li>Milestone 3: Deterministic Matching</li>
           <li>Milestone 4: Opportunity Ranking</li>

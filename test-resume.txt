@@ -1,0 +1,57 @@
+﻿John Smith
+john.smith@email.com | (555) 123-4567 | Seattle, WA
+
+EDUCATION
+
+University of Washington
+Bachelor of Science in Computer Science
+September 2022 - June 2026
+GPA: 3.8
+• Dean's List Fall 2023, Spring 2024
+• Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems
+
+EXPERIENCE
+
+Software Engineering Intern
+Amazon Web Services
+June 2025 - August 2025 | Seattle, WA
+• Developed microservices using Java and Spring Boot for AWS Lambda deployment
+• Implemented RESTful APIs serving 1M+ requests per day
+• Reduced API latency by 40% through database query optimization
+• Collaborated with team of 8 engineers using Agile methodology
+
+Web Development Intern  
+Microsoft
+June 2024 - August 2024 | Redmond, WA
+• Built responsive web applications using React, TypeScript, and Node.js
+• Created reusable UI components following accessibility guidelines
+• Integrated authentication using OAuth 2.0 and JWT tokens
+• Wrote unit tests achieving 95% code coverage using Jest
+
+TECHNICAL SKILLS
+
+Languages: Python, Java, JavaScript, TypeScript, SQL, C++
+Frameworks: React, Node.js, Express, Spring Boot, Django, Flask
+Databases: PostgreSQL, MongoDB, Redis, MySQL
+Cloud & DevOps: AWS, Docker, Kubernetes, Git, CI/CD, Terraform
+Tools: VS Code, IntelliJ, Postman, Jira
+
+PROJECTS
+
+Personal Finance Tracker
+• Full-stack web application built with React frontend and Django backend
+• Implemented secure authentication and data encryption
+• Deployed on AWS using Docker containers and RDS for database
+• Technologies: React, Django, PostgreSQL, Docker, AWS
+
+Real-time Chat Application
+• Built scalable chat app using WebSockets for real-time communication
+• Supports group chats, direct messages, and file sharing
+• Technologies: Node.js, Socket.io, MongoDB, Redis
+
+CERTIFICATIONS
+
+AWS Certified Solutions Architect - Associate
+Amazon Web Services, 2025
+Credential ID: AWS-ASA-12345
+
