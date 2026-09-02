@@ -1,5 +1,6 @@
 # JobLister
 
+*THIS PROJECT IS INCOMPLETE*
 Local-first job discovery and opportunity-ranking tool.
 
 ## Overview
